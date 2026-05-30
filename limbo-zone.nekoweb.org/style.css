@@ -1,16 +1,19 @@
 /* css on the archived sadgrl website (with a lot of edits) */
 
-::selection { color: white; background: #929F65; }
+::selection { color: white; background: #799E85; }
 
 /* scroll, box-sizing to include padding + border in an element's width/height -- future eva here wtf did i write */
 * {
     scrollbar-width: thin;
-  	scrollbar-color: #929F65 #4E5146;
+  	scrollbar-color: #799E85 #4E5146;
     box-sizing: border-box;
 }
 
+/* fonts */
+
+
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: "Comic Sans MS", cursive;
     margin: 0;
     color: #E6EBD7;
     background-color: #0E100E;
@@ -29,11 +32,11 @@ main {
 }
 
 a {
-    color: #83A51F;
+    color: #799E85;
 }
 
 a:hover {
-    color: #F6FF43;
+    color: #9cc9aa;
     font-weight: bold;
 }
 
@@ -51,7 +54,7 @@ a:hover {
 }
 
 #navbar {
-    background-color: #0E100E;
+    background-color: #151A18;
     margin:0 5%;
     padding: 13px;
     display: flex;
@@ -67,7 +70,7 @@ a:hover {
 }
 
 #navbar a:hover {
-    color: #CAD7A6;
+    color: #799E85;
 }
 
 #navbar .collapseIcon {
@@ -85,7 +88,7 @@ a:hover {
     }
 
 footer {
-    background-color: #0E100E;
+    background-color: #151A18;
     height: 110px;
     padding: 15px;
     margin: 60px 5%;
@@ -97,7 +100,7 @@ h1 {
 }
 
 strong {
-    color: #83A51F;
+    color: #799E85;
 }
 
 small {
